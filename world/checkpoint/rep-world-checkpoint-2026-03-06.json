@@ -1,0 +1,19 @@
+{
+  "date": "2026-03-06",
+  "scope": "world",
+  "status": "ACTIVE",
+  "event_count": 3,
+  "top_events": [
+    "REP-WORLD-2026-03-06-0001",
+    "REP-WORLD-2026-03-06-0002",
+    "REP-WORLD-2026-03-06-0003"
+  ],
+  "dominant_pressures": [
+    "cyber-instability",
+    "identity infrastructure weakness",
+    "AI-assisted cyber attacks"
+  ],
+  "derived_from": [],
+  "generated_at": "2026-03-06T17:30:00Z",
+  "notes": "World-level checkpoint summarizing systemic digital instability and identity infrastructure fragility."
+}
