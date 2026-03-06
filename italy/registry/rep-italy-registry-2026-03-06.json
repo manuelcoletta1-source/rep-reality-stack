@@ -1,0 +1,60 @@
+[
+  {
+    "event_id": "REP-ITALY-2026-03-06-0001",
+    "scope": "italy",
+    "level": "italy",
+    "decision": "Italian digital services inherit the structural cyber-instability affecting European digital infrastructure.",
+    "cost": "Exposure of public and private digital services to phishing, identity theft, and data exfiltration risks.",
+    "trace": "Italian digital infrastructure relies heavily on centralized authentication systems, cloud services and credential-based access models similar to those observed across European infrastructures.",
+    "time": "2026-03-06T17:55:00Z",
+    "derived_from": [
+      "REP-EUROPE-2026-03-06-0001"
+    ],
+    "impact_vector": [
+      "public services",
+      "identity systems",
+      "cybersecurity",
+      "citizen services"
+    ],
+    "confidence": "medium",
+    "notes": "National level propagation of European digital infrastructure weaknesses."
+  },
+  {
+    "event_id": "REP-ITALY-2026-03-06-0002",
+    "scope": "italy",
+    "level": "italy",
+    "decision": "Italian organizations remain exposed to social engineering and credential-based compromise patterns.",
+    "cost": "Unauthorized access, identity impersonation, and operational disruption across enterprise and institutional systems.",
+    "trace": "Observed global patterns show that identity-based attacks exploit weak credential systems and mutable logging infrastructures.",
+    "time": "2026-03-06T18:00:00Z",
+    "derived_from": [
+      "REP-WORLD-2026-03-06-0002"
+    ],
+    "impact_vector": [
+      "social engineering",
+      "identity compromise",
+      "enterprise risk"
+    ],
+    "confidence": "medium",
+    "notes": "Propagation of global attack vectors into national digital ecosystems."
+  },
+  {
+    "event_id": "REP-ITALY-2026-03-06-0003",
+    "scope": "italy",
+    "level": "italy",
+    "decision": "Technical observatories and demonstrative cybersecurity models may emerge as responses to infrastructure verification gaps.",
+    "cost": "Need for continuous technical analysis, public demonstrators, and verifiable identity infrastructure experimentation.",
+    "trace": "The concept of a technical observatory such as EU Digital Reality Check highlights the need for measurable cybersecurity evaluation.",
+    "time": "2026-03-06T18:05:00Z",
+    "derived_from": [
+      "REP-EUROPE-2026-03-06-0003"
+    ],
+    "impact_vector": [
+      "cyber observatory",
+      "technical research",
+      "infrastructure resilience"
+    ],
+    "confidence": "medium",
+    "notes": "National-level implication of European technical monitoring initiatives."
+  }
+]
