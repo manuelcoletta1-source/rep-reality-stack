@@ -1,0 +1,59 @@
+[
+  {
+    "event_id": "REP-PIEMONTE-2026-03-06-0001",
+    "scope": "piemonte",
+    "level": "piemonte",
+    "decision": "Regional digital infrastructure inherits cybersecurity exposure from national and European digital systems.",
+    "cost": "Regional public services, SMEs, and transport-related digital systems remain exposed to identity-based attacks and credential compromise.",
+    "trace": "Regional services depend on the same identity and access infrastructures used at national and European levels.",
+    "time": "2026-03-06T18:15:00Z",
+    "derived_from": [
+      "REP-ITALY-2026-03-06-0001"
+    ],
+    "impact_vector": [
+      "regional services",
+      "SME digital exposure",
+      "identity infrastructure"
+    ],
+    "confidence": "medium",
+    "notes": "Propagation of national digital infrastructure conditions to the regional level."
+  },
+  {
+    "event_id": "REP-PIEMONTE-2026-03-06-0002",
+    "scope": "piemonte",
+    "level": "piemonte",
+    "decision": "Regional economic systems increasingly depend on cloud-based platforms and external digital identity providers.",
+    "cost": "Operational dependency on third-party digital infrastructure and identity systems.",
+    "trace": "SMEs and public services rely on credential authentication systems and cloud service providers.",
+    "time": "2026-03-06T18:18:00Z",
+    "derived_from": [
+      "REP-EUROPE-2026-03-06-0001"
+    ],
+    "impact_vector": [
+      "cloud dependency",
+      "supply chain exposure",
+      "identity risk"
+    ],
+    "confidence": "medium",
+    "notes": "Regional reflection of the broader European digital infrastructure model."
+  },
+  {
+    "event_id": "REP-PIEMONTE-2026-03-06-0003",
+    "scope": "piemonte",
+    "level": "piemonte",
+    "decision": "Regional resilience requires verifiable digital identity and audit mechanisms for public and private infrastructures.",
+    "cost": "Need for technical observability, event traceability, and infrastructure verification models.",
+    "trace": "Technical observatories and demonstrative systems such as EU Digital Reality Check indicate the need for measurable infrastructure resilience.",
+    "time": "2026-03-06T18:20:00Z",
+    "derived_from": [
+      "REP-ITALY-2026-03-06-0003"
+    ],
+    "impact_vector": [
+      "infrastructure resilience",
+      "technical observability",
+      "digital governance"
+    ],
+    "confidence": "medium",
+    "notes": "Regional-level implication of European and national digital resilience initiatives."
+  }
+]
