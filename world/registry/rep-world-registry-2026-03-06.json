@@ -1,0 +1,59 @@
+[
+  {
+    "event_id": "REP-WORLD-2026-03-06-0001",
+    "scope": "world",
+    "level": "world",
+    "decision": "Global digital infrastructure enters a condition of persistent cyber-instability.",
+    "cost": "Identity theft risk, systemic fraud exposure, pressure on critical digital services.",
+    "trace": "Publicly documented pattern of large-scale breaches, AI-assisted attack use, booking/payment manipulation, and transport-related data exposure.",
+    "time": "2026-03-06T16:00:00Z",
+    "derived_from": [],
+    "impact_vector": [
+      "cybersecurity",
+      "identity",
+      "fraud",
+      "infrastructure",
+      "AI misuse"
+    ],
+    "confidence": "high",
+    "notes": "World-level baseline derived from public cyber-instability patterns described in the source document."
+  },
+  {
+    "event_id": "REP-WORLD-2026-03-06-0002",
+    "scope": "world",
+    "level": "world",
+    "decision": "AI becomes an operational component in the attack surface rather than only a defensive tool.",
+    "cost": "Higher attack automation, easier command obfuscation, lower barrier to offensive coordination.",
+    "trace": "Use of AI/chatbot-like tooling in malware support and attack communication is described as already operational.",
+    "time": "2026-03-06T16:05:00Z",
+    "derived_from": [],
+    "impact_vector": [
+      "AI misuse",
+      "malware operations",
+      "threat escalation"
+    ],
+    "confidence": "medium-high",
+    "notes": "This event captures the structural shift from isolated cyber incidents to AI-amplified threat capability."
+  },
+  {
+    "event_id": "REP-WORLD-2026-03-06-0003",
+    "scope": "world",
+    "level": "world",
+    "decision": "The main weakness is identified as the absence of persistent, verifiable digital identity infrastructure.",
+    "cost": "Systems remain vulnerable to impersonation, unverifiable state transitions, mutable logs, and low-cost abuse.",
+    "trace": "The source analysis explicitly frames the problem as lack of computable persistent identity, not merely the existence of hackers.",
+    "time": "2026-03-06T16:10:00Z",
+    "derived_from": [
+      "REP-WORLD-2026-03-06-0001",
+      "REP-WORLD-2026-03-06-0002"
+    ],
+    "impact_vector": [
+      "identity infrastructure",
+      "auditability",
+      "system trust",
+      "governance"
+    ],
+    "confidence": "high",
+    "notes": "This is the world-level structural diagnosis that will propagate downward across Europe, Italy, Piemonte, Torino, and Barriera di Milano."
+  }
+]
