@@ -1,0 +1,23 @@
+{
+  "date": "2026-03-06",
+  "scope": "barriera-di-milano",
+  "status": "ACTIVE",
+  "event_count": 3,
+  "top_events": [
+    "REP-BARRIERA-2026-03-06-0001",
+    "REP-BARRIERA-2026-03-06-0002",
+    "REP-BARRIERA-2026-03-06-0003"
+  ],
+  "dominant_pressures": [
+    "local exposure to digital identity systems",
+    "dependence on external digital services",
+    "propagation of global cyber instability to daily life"
+  ],
+  "derived_from": [
+    "REP-TORINO-2026-03-06-0001",
+    "REP-TORINO-2026-03-06-0002",
+    "REP-TORINO-2026-03-06-0003"
+  ],
+  "generated_at": "2026-03-06T18:50:00Z",
+  "notes": "District-level checkpoint summarizing how global cyber and identity infrastructure pressures propagate down to everyday digital services used by residents."
+}
