@@ -1,0 +1,46 @@
+{
+  "template_version": "0.1",
+  "project": "REP Reality Stack",
+  "event_template": {
+    "event_id": "REP-LEVEL-YYYY-MM-DD-0001",
+    "scope": "world",
+    "level": "world",
+    "decision": "",
+    "cost": "",
+    "trace": "",
+    "time": "YYYY-MM-DDTHH:MM:SSZ",
+    "derived_from": [],
+    "impact_vector": [],
+    "confidence": "medium",
+    "notes": ""
+  },
+  "field_guide": {
+    "event_id": "Unique identifier of the event.",
+    "scope": "Territorial scope of the event.",
+    "level": "Level of the stack. Must match scope.",
+    "decision": "Structural change or condition identified.",
+    "cost": "Operational consequence or pressure generated.",
+    "trace": "Observable evidence, explanation, or source summary.",
+    "time": "UTC timestamp of the recorded event.",
+    "derived_from": "List of higher-level event IDs from which this event derives.",
+    "impact_vector": "List of affected dimensions such as cybersecurity, economy, mobility, identity, governance.",
+    "confidence": "Confidence level of the event description: low, medium, high.",
+    "notes": "Optional technical or contextual notes."
+  },
+  "allowed_levels": [
+    "world",
+    "europe",
+    "italy",
+    "piemonte",
+    "torino",
+    "barriera-di-milano"
+  ],
+  "rules": [
+    "scope and level must match",
+    "decision, cost, trace, and time are mandatory",
+    "derived_from may be empty only for top-level events",
+    "impact_vector should contain at least one dimension",
+    "confidence should be low, medium, or high"
+  ],
+  "notes": "Operational template for adding new REP Reality Stack events in a consistent daily format."
+}
