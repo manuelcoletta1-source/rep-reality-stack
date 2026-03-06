@@ -1,0 +1,74 @@
+{
+  "schema_version": "0.1",
+  "project": "REP Reality Stack",
+  "status": "experimental",
+  "definitions": {
+    "event": {
+      "required": [
+        "event_id",
+        "scope",
+        "level",
+        "decision",
+        "cost",
+        "trace",
+        "time"
+      ],
+      "optional": [
+        "derived_from",
+        "impact_vector",
+        "confidence",
+        "notes"
+      ]
+    },
+    "checkpoint": {
+      "required": [
+        "date",
+        "scope",
+        "status",
+        "event_count",
+        "top_events",
+        "dominant_pressures",
+        "generated_at"
+      ],
+      "optional": [
+        "derived_from",
+        "notes"
+      ]
+    },
+    "daily_stack": {
+      "required": [
+        "date",
+        "status",
+        "stack_name",
+        "levels",
+        "registry_files",
+        "checkpoint_files",
+        "dominant_pressure",
+        "core_issue",
+        "generated_at"
+      ],
+      "optional": [
+        "vertical_logic",
+        "methodology",
+        "generated_from",
+        "notes"
+      ]
+    }
+  },
+  "levels": [
+    "world",
+    "europe",
+    "italy",
+    "piemonte",
+    "torino",
+    "barriera-di-milano"
+  ],
+  "rules": [
+    "each day produces one registry and one checkpoint per level",
+    "each event must belong to exactly one scope and one level",
+    "lower-level events may derive from upper-level events",
+    "checkpoints summarize but do not replace registries",
+    "daily stack binds all levels into one coherent daily record"
+  ],
+  "notes": "Minimal schema definition for REP Reality Stack files."
+}
