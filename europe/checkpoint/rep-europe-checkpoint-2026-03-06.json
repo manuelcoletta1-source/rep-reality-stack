@@ -1,0 +1,24 @@
+{
+  "date": "2026-03-06",
+  "scope": "europe",
+  "status": "ACTIVE",
+  "event_count": 3,
+  "top_events": [
+    "REP-EUROPE-2026-03-06-0001",
+    "REP-EUROPE-2026-03-06-0002",
+    "REP-EUROPE-2026-03-06-0003"
+  ],
+  "dominant_pressures": [
+    "regulation vs technical implementation gap",
+    "transport data exposure",
+    "identity infrastructure weakness",
+    "cyber-instability"
+  ],
+  "derived_from": [
+    "REP-WORLD-2026-03-06-0001",
+    "REP-WORLD-2026-03-06-0002",
+    "REP-WORLD-2026-03-06-0003"
+  ],
+  "generated_at": "2026-03-06T17:50:00Z",
+  "notes": "Europe-level checkpoint summarizing systemic cyber pressure and the structural gap between EU regulatory frameworks and technical verifiability."
+}
