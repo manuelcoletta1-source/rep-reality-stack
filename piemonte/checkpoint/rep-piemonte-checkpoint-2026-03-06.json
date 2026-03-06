@@ -1,0 +1,24 @@
+{
+  "date": "2026-03-06",
+  "scope": "piemonte",
+  "status": "ACTIVE",
+  "event_count": 3,
+  "top_events": [
+    "REP-PIEMONTE-2026-03-06-0001",
+    "REP-PIEMONTE-2026-03-06-0002",
+    "REP-PIEMONTE-2026-03-06-0003"
+  ],
+  "dominant_pressures": [
+    "regional service exposure",
+    "cloud dependency",
+    "identity infrastructure weakness",
+    "need for verifiable resilience"
+  ],
+  "derived_from": [
+    "REP-ITALY-2026-03-06-0001",
+    "REP-ITALY-2026-03-06-0002",
+    "REP-ITALY-2026-03-06-0003"
+  ],
+  "generated_at": "2026-03-06T18:25:00Z",
+  "notes": "Piemonte-level checkpoint summarizing regional exposure derived from national and European digital infrastructure conditions."
+}
