@@ -1,0 +1,24 @@
+{
+  "date": "2026-03-06",
+  "scope": "torino",
+  "status": "ACTIVE",
+  "event_count": 3,
+  "top_events": [
+    "REP-TORINO-2026-03-06-0001",
+    "REP-TORINO-2026-03-06-0002",
+    "REP-TORINO-2026-03-06-0003"
+  ],
+  "dominant_pressures": [
+    "urban digital service exposure",
+    "cloud infrastructure dependency",
+    "identity infrastructure weakness",
+    "need for verifiable auditability"
+  ],
+  "derived_from": [
+    "REP-PIEMONTE-2026-03-06-0001",
+    "REP-PIEMONTE-2026-03-06-0002",
+    "REP-PIEMONTE-2026-03-06-0003"
+  ],
+  "generated_at": "2026-03-06T18:45:00Z",
+  "notes": "Torino-level checkpoint summarizing city-scale exposure derived from regional and national digital infrastructure conditions."
+}
