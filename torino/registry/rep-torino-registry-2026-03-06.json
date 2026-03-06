@@ -1,0 +1,64 @@
+[
+  {
+    "event_id": "REP-TORINO-2026-03-06-0001",
+    "scope": "torino",
+    "level": "torino",
+    "decision": "Urban digital services in Torino inherit structural cyber and identity risks from regional, national, and European infrastructure.",
+    "cost": "Exposure of municipal services, mobility systems, and citizen-facing digital interfaces to phishing, credential compromise, and unverifiable incident reconstruction.",
+    "trace": "City-scale digital services depend on centralized authentication, cloud-based service layers, and externally managed digital identity mechanisms similar to those described at upper levels.",
+    "time": "2026-03-06T18:30:00Z",
+    "derived_from": [
+      "REP-PIEMONTE-2026-03-06-0001"
+    ],
+    "impact_vector": [
+      "municipal services",
+      "mobility",
+      "citizen identity",
+      "urban cybersecurity"
+    ],
+    "confidence": "medium",
+    "notes": "Urban-level propagation of regional digital exposure."
+  },
+  {
+    "event_id": "REP-TORINO-2026-03-06-0002",
+    "scope": "torino",
+    "level": "torino",
+    "decision": "Torino's operational resilience depends increasingly on third-party digital infrastructure and cloud-mediated service continuity.",
+    "cost": "Higher dependency on external platforms, reduced local control over verification, and difficulty in independently proving service state during incidents.",
+    "trace": "The source document emphasizes the general weakness of infrastructures without append-only logs, persistent identities, and deterministic verification; this logic applies directly to urban digital ecosystems.",
+    "time": "2026-03-06T18:35:00Z",
+    "derived_from": [
+      "REP-PIEMONTE-2026-03-06-0002",
+      "REP-EUROPE-2026-03-06-0001"
+    ],
+    "impact_vector": [
+      "cloud dependency",
+      "service continuity",
+      "auditability",
+      "urban operations"
+    ],
+    "confidence": "medium",
+    "notes": "City-level consequence of infrastructure centralization and verification gaps."
+  },
+  {
+    "event_id": "REP-TORINO-2026-03-06-0003",
+    "scope": "torino",
+    "level": "torino",
+    "decision": "A technical-observatory approach is justified at city level to make digital fragility visible, measurable, and comparable.",
+    "cost": "Need for continuous technical observation, local case analysis, and demonstrative verification models for public-facing digital systems.",
+    "trace": "The document proposes a metrological and demonstrative observatory model in which public events are analyzed through repeatable templates, resilience scoring, and comparison with verifiable identity infrastructures.",
+    "time": "2026-03-06T18:40:00Z",
+    "derived_from": [
+      "REP-PIEMONTE-2026-03-06-0003",
+      "REP-EUROPE-2026-03-06-0003"
+    ],
+    "impact_vector": [
+      "technical observability",
+      "urban governance",
+      "public trust",
+      "digital resilience"
+    ],
+    "confidence": "medium-high",
+    "notes": "Urban-level methodological consequence of the EU Digital Reality Check approach."
+  }
+]
