@@ -1,0 +1,48 @@
+{
+  "template_version": "0.1",
+  "project": "REP Reality Stack",
+  "checkpoint_template": {
+    "date": "YYYY-MM-DD",
+    "scope": "world",
+    "status": "ACTIVE",
+    "event_count": 0,
+    "top_events": [],
+    "dominant_pressures": [],
+    "derived_from": [],
+    "generated_at": "YYYY-MM-DDTHH:MM:SSZ",
+    "notes": ""
+  },
+  "field_guide": {
+    "date": "Reference date of the checkpoint.",
+    "scope": "Territorial scope of the checkpoint.",
+    "status": "Operational status of the level for the day.",
+    "event_count": "Number of events recorded in the corresponding daily registry.",
+    "top_events": "List of the most relevant event IDs for the level.",
+    "dominant_pressures": "List of the main pressures affecting the level on that day.",
+    "derived_from": "List of upper-level event IDs or checkpoint dependencies.",
+    "generated_at": "UTC timestamp of checkpoint generation.",
+    "notes": "Optional technical or contextual notes."
+  },
+  "allowed_scopes": [
+    "world",
+    "europe",
+    "italy",
+    "piemonte",
+    "torino",
+    "barriera-di-milano"
+  ],
+  "allowed_status": [
+    "ACTIVE",
+    "STABLE",
+    "DEGRADED",
+    "CRITICAL"
+  ],
+  "rules": [
+    "scope must match the territorial level",
+    "event_count must equal the number of events in the corresponding registry",
+    "top_events should contain only valid event IDs from that scope",
+    "dominant_pressures should summarize the day without replacing the registry",
+    "generated_at must be a UTC timestamp"
+  ],
+  "notes": "Operational template for creating daily checkpoints in REP Reality Stack."
+}
