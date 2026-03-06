@@ -1,0 +1,64 @@
+[
+  {
+    "event_id": "REP-EUROPE-2026-03-06-0001",
+    "scope": "europe",
+    "level": "europe",
+    "decision": "European digital systems operate under a structural gap between regulatory intent and technical verifiability.",
+    "cost": "Reduced auditability, weak independent verification, difficulty proving system state during incidents.",
+    "trace": "The source analysis explicitly identifies that GDPR, NIS2, eIDAS 2.0 and the AI Act define obligations, but do not by themselves provide persistent identity, append-only logs, or deterministic verification.",
+    "time": "2026-03-06T17:35:00Z",
+    "derived_from": [
+      "REP-WORLD-2026-03-06-0003"
+    ],
+    "impact_vector": [
+      "regulation",
+      "auditability",
+      "digital identity",
+      "critical infrastructure"
+    ],
+    "confidence": "high",
+    "notes": "Europe-level structural event derived from the world-level diagnosis of identity infrastructure weakness."
+  },
+  {
+    "event_id": "REP-EUROPE-2026-03-06-0002",
+    "scope": "europe",
+    "level": "europe",
+    "decision": "European transport and mobility systems remain exposed to data breach, identity theft, and unverifiable post-incident reconstruction.",
+    "cost": "Passenger data exposure, phishing risk, identity theft risk, limited ex-post independent audit capability.",
+    "trace": "The source document discusses European travel and rail-related incidents, including stolen traveler data and the absence of unified infrastructural identity and publicly verifiable state.",
+    "time": "2026-03-06T17:40:00Z",
+    "derived_from": [
+      "REP-WORLD-2026-03-06-0001",
+      "REP-WORLD-2026-03-06-0003"
+    ],
+    "impact_vector": [
+      "transport",
+      "identity theft",
+      "public services",
+      "mobility infrastructure"
+    ],
+    "confidence": "medium-high",
+    "notes": "Europe-level applied consequence of global cyber-instability in transport-related infrastructures."
+  },
+  {
+    "event_id": "REP-EUROPE-2026-03-06-0003",
+    "scope": "europe",
+    "level": "europe",
+    "decision": "The EU Digital Reality Check model is justified as a legal, technical and demonstrative response to visible failures of current digital systems.",
+    "cost": "Need for continuous public technical observation, metrological case analysis, and demonstrative alternative models.",
+    "trace": "The source text defines a public European technical observatory based on public cases, neutral technical analysis, metrological scoring, and comparison with verifiable identity infrastructure.",
+    "time": "2026-03-06T17:45:00Z",
+    "derived_from": [
+      "REP-EUROPE-2026-03-06-0001",
+      "REP-EUROPE-2026-03-06-0002"
+    ],
+    "impact_vector": [
+      "technical observatory",
+      "EU digital resilience",
+      "public demonstration",
+      "metrology"
+    ],
+    "confidence": "high",
+    "notes": "This event formalizes the Europe-level methodological response described in the source document."
+  }
+]
