@@ -1,0 +1,65 @@
+{
+  "template_version": "0.1",
+  "project": "REP Reality Stack",
+  "daily_stack_template": {
+    "date": "YYYY-MM-DD",
+    "status": "ACTIVE",
+    "stack_name": "REP Daily Reality Stack",
+    "levels": [
+      "world",
+      "europe",
+      "italy",
+      "piemonte",
+      "torino",
+      "barriera-di-milano"
+    ],
+    "registry_files": [],
+    "checkpoint_files": [],
+    "dominant_pressure": "",
+    "core_issue": "",
+    "vertical_logic": {},
+    "methodology": {
+      "model": "REP territorial reality stack",
+      "rule": "upper-level events generate lower-level pressures, constraints, or consequences",
+      "event_logic": [
+        "decision",
+        "cost",
+        "trace",
+        "time"
+      ]
+    },
+    "generated_from": "publicly observable reality modeled through REP",
+    "generated_at": "YYYY-MM-DDTHH:MM:SSZ",
+    "notes": ""
+  },
+  "field_guide": {
+    "date": "Reference date of the daily stack.",
+    "status": "Operational status of the daily stack.",
+    "stack_name": "Human-readable name of the stack.",
+    "levels": "Ordered territorial levels included in the stack.",
+    "registry_files": "Paths to the registry files for the day.",
+    "checkpoint_files": "Paths to the checkpoint files for the day.",
+    "dominant_pressure": "Primary systemic pressure observed across the stack.",
+    "core_issue": "Main structural issue identified for the day.",
+    "vertical_logic": "Map describing how each level translates the daily pressure.",
+    "methodology": "Embedded methodological reminder for daily construction.",
+    "generated_from": "Description of the observational basis of the stack.",
+    "generated_at": "UTC timestamp of daily stack generation.",
+    "notes": "Optional technical or contextual notes."
+  },
+  "allowed_status": [
+    "ACTIVE",
+    "STABLE",
+    "DEGRADED",
+    "CRITICAL"
+  ],
+  "required_rules": [
+    "there must be one registry file per level",
+    "there must be one checkpoint file per level",
+    "levels must remain in top-down territorial order",
+    "dominant_pressure must summarize the whole day",
+    "core_issue must identify the structural problem of the day",
+    "generated_at must be a UTC timestamp"
+  ],
+  "notes": "Operational template for creating the daily master record in REP Reality Stack."
+}
