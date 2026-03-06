@@ -1,0 +1,52 @@
+{
+  "date": "2026-03-06",
+  "status": "ACTIVE",
+  "stack_name": "REP Daily Reality Stack",
+  "levels": [
+    "world",
+    "europe",
+    "italy",
+    "piemonte",
+    "torino",
+    "barriera-di-milano"
+  ],
+  "registry_files": [
+    "world/registry/rep-world-registry-2026-03-06.json",
+    "europe/registry/rep-europe-registry-2026-03-06.json",
+    "italy/registry/rep-italy-registry-2026-03-06.json",
+    "piemonte/registry/rep-piemonte-registry-2026-03-06.json",
+    "torino/registry/rep-torino-registry-2026-03-06.json",
+    "barriera-di-milano/registry/rep-barriera-milano-registry-2026-03-06.json"
+  ],
+  "checkpoint_files": [
+    "world/checkpoint/rep-world-checkpoint-2026-03-06.json",
+    "europe/checkpoint/rep-europe-checkpoint-2026-03-06.json",
+    "italy/checkpoint/rep-italy-checkpoint-2026-03-06.json",
+    "piemonte/checkpoint/rep-piemonte-checkpoint-2026-03-06.json",
+    "torino/checkpoint/rep-torino-checkpoint-2026-03-06.json",
+    "barriera-di-milano/checkpoint/rep-barriera-milano-checkpoint-2026-03-06.json"
+  ],
+  "dominant_pressure": "cyber-instability",
+  "core_issue": "lack of persistent and verifiable digital identity infrastructure",
+  "vertical_logic": {
+    "world": "global cyber-instability and AI-assisted attack pressure",
+    "europe": "regulatory and technical implementation gap",
+    "italy": "national exposure to identity and credential-based compromise",
+    "piemonte": "regional dependence on external digital infrastructure",
+    "torino": "urban service exposure and weak auditability",
+    "barriera-di-milano": "local everyday exposure through digital services"
+  },
+  "methodology": {
+    "model": "REP territorial reality stack",
+    "rule": "upper-level events generate lower-level pressures, constraints, or consequences",
+    "event_logic": [
+      "decision",
+      "cost",
+      "trace",
+      "time"
+    ]
+  },
+  "generated_from": "publicly observable reality modeled through REP",
+  "generated_at": "2026-03-06T18:55:00Z",
+  "notes": "Master record of the daily multi-scale reality stack. This file binds the six territorial levels into a single coherent operational structure."
+}
