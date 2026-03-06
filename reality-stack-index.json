@@ -1,0 +1,32 @@
+{
+  "project": "REP Reality Stack",
+  "version": "0.1",
+  "status": "experimental",
+  "index_type": "daily-stack-timeline",
+  "created_at": "2026-03-06T19:00:00Z",
+  "days": [
+    {
+      "date": "2026-03-06",
+      "status": "ACTIVE",
+      "master_record": "daily-stack/rep-daily-reality-stack-2026-03-06.json",
+      "levels": [
+        "world",
+        "europe",
+        "italy",
+        "piemonte",
+        "torino",
+        "barriera-di-milano"
+      ],
+      "registry_count": 6,
+      "checkpoint_count": 6,
+      "notes": "First complete daily reality stack."
+    }
+  ],
+  "rules": [
+    "each indexed day must have exactly one master record",
+    "each indexed day must reference six territorial levels",
+    "registry_count must match the number of registry files for the day",
+    "checkpoint_count must match the number of checkpoint files for the day"
+  ],
+  "notes": "Timeline index of all daily REP Reality Stack records."
+}
